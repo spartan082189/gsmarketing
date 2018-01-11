@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>GS Marketing</title>
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/core.min.css" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+
+  <!-- #hero -->
+  <section id="hero">
+    <div class="container">
+      <h1 class="ui center aligned icon header">
+        <i class="teal coffee icon"></i>
+        <span class="txt-highlight">GS Marketing</span> - DNA/RNA Converter
+      </h1>
+      <p class="leadText">Solution provided by
+        <span class="txt-highlight">Michael Gillam</span>
+      </p>
+      <a class="ui vertical animated button teal large view-solution" tabindex="0" href="#solution">
+        <div class="hidden content">View My Solution</div>
+        <div class="visible content">
+          <i class="shop icon"></i> View My Solution
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- #solution -->
+  <section id="solution">
+    <div class="ui container">
+      <h2 class="ui center aligned icon header teal">
+        <i class="settings icon"></i>
+        <div class="content">
+          DNA/RNA Converter
+          <div class="sub header">Start typing to get your DNA or RNA sequence</div>
+        </div>
+      </h2>
+      <div class="ui labeled input">
+        <input type="text" placeholder="Enter text here..." id="base-input">
+        <div class="ui dropdown label teal" id="baseType">
+          <div class="text">Select an objective</div>
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            <div class="item" data-value="DNA">Convert to DNA (Objective #1)</div>
+            <div class="item" data-value="RNA">Convert to RNA (Objective #2)</div>
+          </div>
+        </div>
+      </div>
+      <div class="ui icon message teal strandMessage">
+        <i class="cubes icon"></i>
+        <div class="content">
+          <div class="header"></div>
+          <h3 id="strand"></h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <p class="footerText">Solution provided by
+      <span class="txt-highlight">Michael Gillam</span>
+    </p>
+  </footer>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/core.min.js"></script>
+  <script src="./assets/js/common.js"></script>
+</body>
+
+</html>
